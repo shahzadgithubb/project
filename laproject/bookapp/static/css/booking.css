@@ -1,0 +1,25 @@
+span{
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+   color: white; 
+   font-size: 50px;
+   text-align: center;
+}
+.man{
+    color: white;
+    margin: 75px 375px; 
+    text-align: center;
+    border: 2px yellow solid ;
+    width: 500px;
+    height: 450px;
+    background-color: black;
+    opacity: .7;
+}
+body{
+    
+    background-image: url(/static/images/six.jpg);
+        background-size: cover; 
+}    
+        

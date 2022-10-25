@@ -1,0 +1,99 @@
+.gallery{
+    height: 5000px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 5% 50% 50% 50%;
+    grid-gap: 25px;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    text-align: center;
+    /* border: 1px dashed red; */
+    padding: 100px;
+    margin: 100px ;
+    padding-top: 250px ;
+    padding-bottom: 250px;
+}
+.img1{
+ grid-area: 1/1/2/5;
+ /* background-color: aqua; */
+ border: 1px solid black;
+ height: 100%;
+ color: white;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 50px ;
+ padding-bottom: 100px;
+ 
+}
+.img2{
+    grid-area: 2/1/3/2;
+    background-color: chartreuse;
+    border: 1px solid black;
+    height: 100%;
+    background-image: url(/static/images/one.jpg);
+    background-size: cover;
+}
+.img3{
+    grid-area: 2/2/3/3;
+    background-color: coral;
+    border: 1px solid black;
+    height: 100%;
+    background-image: url(/static/images/two.jpg);
+    background-size: cover;
+}
+.img4{
+    grid-area: 2/3/3/4;
+    background-color: crimson;
+    border: 1px solid black;
+    height: 100%;
+    background-image: url(/static/images/three.jpg);
+    background-size: cover;
+}
+.img5{
+    grid-area: 2/4/3/5;
+    background-color: darkorange;
+    border: 1px solid black;
+    height: 100%;
+    background-image: url(/static/images/four.jpg);
+    background-size: cover;
+}
+.img6{
+ grid-area: 3/1/4/3;
+ background-color: blue;
+ border: 1px solid black;
+ height: 100%;
+ background-image: url(/static/images/five.jpg);
+ background-size: cover;
+}
+.img7{
+    grid-area: 3/3/4/5;
+background-color: forestgreen;
+border: 1px solid black;
+height: 100%;
+background-image: url(/static/images/six.jpg);
+background-size: cover;
+}
+.img8{
+    grid-area: 4/1/5/2;
+    background-color: blueviolet;
+    height: 100%;
+    background-image: url(/static/images/seven.jpg);
+    background-size: cover;
+}
+.img9{
+    grid-area: 4/2/5/4;
+    background-color: darkmagenta;
+    height: 100%;
+    background-image: url(/static/images/eight.jpg);
+    background-size: cover;
+}
+.img10{
+    grid-area: 4/4/5/5;
+    background-color: black;
+    height: 100%;
+    background-image: url(/static/images/nine.jpg);
+    background-size: cover;
+}
+body{
+    background-color: black;
+}

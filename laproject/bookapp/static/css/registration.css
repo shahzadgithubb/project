@@ -1,0 +1,25 @@
+span{
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+   color: white; 
+   font-size: 50px;
+   text-align: center;
+}
+.man{
+    color: white;
+    margin: 65px 320px; 
+    text-align: center;
+    border: 2px yellow solid ;
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    opacity: .8;
+        
+}
+body{
+    
+        background-image: url(/static/images/five.jpg);
+        background-size: cover; 
+    }
